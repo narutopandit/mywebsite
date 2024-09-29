@@ -376,3 +376,106 @@ p{
     border: 1px solid #08817969;
     border-radius: 7px;
   }
+
+/* Add this at the end of the file */
+
+@media (max-width: 768px) {
+  #header {
+    padding: 10px 20px;
+    flex-wrap: wrap;
+  }
+
+  .header-nav-logo img {
+    width: 60px;
+    height: 50px;
+  }
+
+  .header-nav-list ul {
+    display: none;
+  }
+
+  #header .form {
+    order: 3;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  #header .form input {
+    width: calc(100% - 120px);
+  }
+
+  #main-back {
+    height: 70vh;
+    padding: 0 20px;
+    text-align: center;
+    align-items: center;
+  }
+
+  #main-back h4 {
+    font-size: 30px;
+  }
+
+  #main-back h2, #main-back h1 {
+    font-size: 40px;
+  }
+
+  #features {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  #features .f-box {
+    margin: 10px;
+  }
+
+  .product-section .pro-collection {
+    margin: 0 20px;
+  }
+
+  .product-section .product-cart {
+    width: calc(50% - 20px);
+  }
+
+  #banners {
+    margin: 0 20px;
+  }
+
+  #banners .big-banners, #banners .small-banners {
+    flex-direction: column;
+  }
+
+  #banners .big-banners div, #banners .small-banners div {
+    min-width: 100%;
+    margin: 10px 0;
+  }
+
+  #newsletter {
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+    text-align: center;
+  }
+
+  #newsletter .form {
+    margin-top: 20px;
+  }
+
+  #newsletter .form input {
+    width: calc(100% - 120px);
+  }
+
+  #footer {
+    flex-direction: column;
+    padding: 30px;
+  }
+
+  #footer > div {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .product-section .product-cart {
+    width: 100%;
+  }
+}
