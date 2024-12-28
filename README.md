@@ -1,6 +1,4 @@
-Okay, here's a revised version of your README.md, formatted to render better on GitHub, along with explanations:
 
-```markdown
 # E-Commerce Website
 
 Welcome to the **E-Commerce Website** project! This project is a simple and visually appealing e-commerce platform built using only HTML and CSS. It showcases how to create a responsive, user-friendly interface for an online store.
