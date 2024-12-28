@@ -60,7 +60,7 @@ Welcome to the **E-Commerce Website** project! This project is a simple and visu
 ## Screenshots
 
 ### Homepage
-![Homepage](https://user-images.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/images/Screenshot%202024-12-28%20205431.png)
+![Homepage](images/Hompage.png)
 
 ## Future Enhancements
 
